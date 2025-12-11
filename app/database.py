@@ -3,7 +3,7 @@ from sqlalchemy.orm import sessionmaker, declarative_base
 
 
 # Caminho do banco SQLite
-DATABASE_URL = "sqlite:///C:/Users/faria/OneDrive/Anexos/Studio visual/Estudos/Sistema Bancário/Banco.db"
+DATABASE_URL = "sqlite:///C:/Users/faria/OneDrive/Anexos/Studio visual/Estudos/Sistema Bancario/Banco.db"
 
 
 # Criação o moto de conexão com o banco de dados

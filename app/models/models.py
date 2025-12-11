@@ -14,7 +14,6 @@ from datetime import datetime, timezone
 DATABASE_URL = "sqlite:///C:/Users/faria/OneDrive/Anexos/Studio visual/Estudos/Sistema Bancário/Banco.db"
 
 
-
 engine = create_engine(DATABASE_URL, connect_args={"check_same_thread": False})
 
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
